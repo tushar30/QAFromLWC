@@ -1,0 +1,3 @@
+<aura:component implements="force:lightningQuickAction,force:hasRecordId" >
+	<c:lwcQA recordId="{!v.recordId}" onclose="{!c.closeQA}"/>
+</aura:component>
